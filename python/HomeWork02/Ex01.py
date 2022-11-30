@@ -1,18 +1,18 @@
-# Напишите программу, которая принимает на вход вещественное число и показывает сумму его цифр. Учтите, что числа могут быть отрицательными
+# Напишите программу, которая принимает на вход вещественное число и показывает сумму его цифр.
+#  Учтите, что числа могут быть отрицательными
 # Пример:
 # 67.82 -> 23
 # (-0.56) -> 11
 
+num_users = input("Введите вещественное число:\n ")
+sum_num_users = 0
+for i in str(num_users):
+    if i != ",":
+        if i != ".":
+            sum_num_users += int(i)
 
-number_user = float(input('Введите число: '))
-# try:
-#     number_user = float(number_user)
-#     print(range(number_user))
-# except ValueError:
-#     print('Вы ввели не число\n')
+print('Сумма цифр вещественного числа', sum_num_users)
 
-list_number_user = [number_user]
-print(list_number_user)
 
 
 
