@@ -3,13 +3,16 @@
 # 67.82 -> 23
 # (-0.56) -> 11
 
-list_number_user = []
-number_user = input('Введите число: ')
-try:
-    number_user = int(number_user)
-    print('Получилось')
-except ValueError:
-    print('Вы ввели не число\n')
+
+number_user = float(input('Введите число: '))
+# try:
+#     number_user = float(number_user)
+#     print(range(number_user))
+# except ValueError:
+#     print('Вы ввели не число\n')
+
+list_number_user = [number_user]
+print(list_number_user)
 
 
 

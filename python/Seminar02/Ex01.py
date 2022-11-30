@@ -2,9 +2,9 @@
 # *Пример:*
 # - Для N = 5: 1, -3, 9, -27, 81
 
-list_random = []
-number = int(input('Введите число:\n'))
+list_random = []                            # создание списка
+number = int(input('Введите число:\n'))     # вводим переменную
 
-for i in range(0,number):
+for i in range(0,number):                   # создаем цикл, проходимся по диапозону нашего числа
     list_random.append((-3)**i)
 print(list_random)
